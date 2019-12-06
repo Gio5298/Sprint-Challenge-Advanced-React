@@ -1,3 +1,6 @@
+import React from 'react';
+import { useLightMode } from './hooks/useLightMode'
+
 const Navbar = () => {
   const [lightMode, setLightMode] = useLightMode(false);
   return (
